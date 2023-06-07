@@ -12,7 +12,6 @@ import { OrderTableComponent } from "./orderTable.component";
 
 let routing = RouterModule.forChild([
    { path: "auth", component: AuthComponent },
-   //{ path: "main", component: AdminComponent },
    //{ path: "main", component: AdminComponent, canActivate: [AuthGuard] },
    {
       path: "main", component: AdminComponent, canActivate: [AuthGuard],
